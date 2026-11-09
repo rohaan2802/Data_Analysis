@@ -7,7 +7,7 @@
 Database coursework in **T-SQL (SQL Server)**:
 
 - **Assignment #01** — ER diagrams (draw.io + PNG)
-- **Assignment #02** — `ECOMMERCE` schema, `BULK INSERT`, 32 analytical queries on **Olist**
+- **Assignment #02** — `ECOMMERCE` schema, `BULK INSERT`, 31 analytical questions on **Olist**
 - Exported **CSV + chart** packs for Order / Customer / Product / Seller themes
 - **Northwind** sample DB script for extra practice
 - **20 labelled feature screenshots** + SSMS runbook / FK-safe load order
@@ -18,35 +18,47 @@ Canonical script: [`Assignment #02/Assignment_2_i222327/Assignment #02_SQL.sql`]
 
 ---
 
-## Live demo
+<a id="live-demo"></a>
 
-There is no hosted web app — the “demo” is the graded SQL + exported charts. Open these directly:
+## Live Links
 
-Primary analysis pack (Order / Customer / Product / Seller folders):
+| What | Link |
+|------|------|
+| Repository | [https://github.com/rohaan2802/Data_Analysis](https://github.com/rohaan2802/Data_Analysis) |
+| Website (GitHub Pages — after publication) | [https://rohaan2802.github.io/Data_Analysis/](https://rohaan2802.github.io/Data_Analysis/) |
+| Download whole repository (ZIP) | [https://github.com/rohaan2802/Data_Analysis/archive/refs/heads/main.zip](https://github.com/rohaan2802/Data_Analysis/archive/refs/heads/main.zip) |
+| Primary analysis pack — Order / Customer / Product / Seller folders | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327) |
+| Canonical T-SQL script | [https://github.com/rohaan2802/Data_Analysis/blob/main/Assignment%20%2302/Assignment_2_i222327/Assignment%20%2302_SQL.sql](https://github.com/rohaan2802/Data_Analysis/blob/main/Assignment%20%2302/Assignment_2_i222327/Assignment%20%2302_SQL.sql) |
+| Labelled screenshot gallery — 20 captures | [https://github.com/rohaan2802/Data_Analysis/tree/main/docs/screenshots](https://github.com/rohaan2802/Data_Analysis/tree/main/docs/screenshots) |
+| Assignment #01 — ER diagrams | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2301](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2301) |
+| Assignment #02 — SQL, datasets and reports | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302) |
+| Olist source CSV dataset | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Brazilian_Dataset](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Brazilian_Dataset) |
+| Order analysis — CSV and chart exports | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/ORDER%20ANALYSIS](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/ORDER%20ANALYSIS) |
+| Customer analysis — CSV and chart exports | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/CUSTOMER%20ANALYSIS](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/CUSTOMER%20ANALYSIS) |
+| Product analysis — CSV and chart exports | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/PRODUCT%20ANALYSIS](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/PRODUCT%20ANALYSIS) |
+| Seller and shipment analysis — CSV and chart exports | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/SELLER%20AND%20SHIPMENT%20ANALYSIS](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/SELLER%20AND%20SHIPMENT%20ANALYSIS) |
+| Northwind practice script | [https://github.com/rohaan2802/Data_Analysis/blob/main/NorthWind%20DataBase/NorthWind%20DataBase.sql](https://github.com/rohaan2802/Data_Analysis/blob/main/NorthWind%20DataBase/NorthWind%20DataBase.sql) |
 
-https://github.com/rohaan2802/Data-Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327
+**Website status:** prepared locally; not published yet. The GitHub Pages URL above is the intended address **after deployment**, not a currently live demo.
 
-Canonical T-SQL script:
+| Local preview & guides | Link |
+|------------------------|------|
+| Preview the webpage | [index.html](index.html) |
+| Start here | [START-HERE.md](START-HERE.md) |
+| Deployment and repository About settings | [docs/github-pages.md](docs/github-pages.md) |
+| SSMS runbook | [docs/ssms-runbook.md](docs/ssms-runbook.md) |
+| Foreign-key-safe load order | [docs/load-order.md](docs/load-order.md) |
+| Query-to-export index | [docs/query-index.md](docs/query-index.md) |
 
-https://github.com/rohaan2802/Data-Analysis/blob/main/Assignment%20%2302/Assignment_2_i222327/Assignment%20%2302_SQL.sql
+For a local browser preview, run `python -m http.server 8000` in this folder, then open http://localhost:8000/.
 
-Labelled screenshot gallery:
-
-https://github.com/rohaan2802/Data-Analysis/tree/main/docs/screenshots
-
-Assignment #01 ER diagrams:
-
-https://github.com/rohaan2802/Data-Analysis/tree/main/Assignment%20%2301
-
-Northwind practice script:
-
-https://github.com/rohaan2802/Data-Analysis/blob/main/NorthWind%20DataBase/NorthWind%20DataBase.sql
+The responsive static coursework website matches the design of [PF_Repository](https://rohaan2802.github.io/PF_Repository/). SQL runs in SQL Server / SSMS; the website presents the documentation, diagrams and saved charts and does not run database queries in the browser.
 
 ---
 
 ## Table of contents
 
-1. [Live demo](#live-demo)
+1. [Live Links](#live-links)
 2. [Quick start](#quick-start)
 3. [Feature screenshots (20)](#feature-screenshots-20)
 4. [Deep feature walkthrough](#deep-feature-walkthrough)
@@ -72,7 +84,7 @@ https://github.com/rohaan2802/Data-Analysis/blob/main/NorthWind%20DataBase/North
 
 ## Quick start
 
-1. Open the [Live demo](#live-demo) links (full URLs — not “click here”).
+1. Open [Live Links](#live-links) for the website preview, source files, downloads and setup guides.
 2. Skim [Feature screenshots (20)](#feature-screenshots-20).
 3. Follow [`docs/ssms-runbook.md`](docs/ssms-runbook.md) + [`docs/load-order.md`](docs/load-order.md).
 4. Edit every `BULK INSERT ... FROM` path in the SQL file, then execute in SSMS.
@@ -253,7 +265,7 @@ Olist is a Brazilian marketplace dump: customers, sellers, orders, payments, ite
 - Tables with PKs, FKs (`ON DELETE CASCADE` on several), domain `CHECK`s
 - UTF-8 bulk load (`CODEPAGE = '65001'`) where specified
 - Geolocation staging + `ROW_NUMBER()` dedupe
-- 32 analysis `SELECT`s (8 × 4 themes)
+- 31 labelled analytical questions: 8 Order + 8 Customer + 8 Product + 7 Seller/Shipment; some questions use multiple SQL statements
 - Exported CSV/PNG evidence packs
 - Assignment #01 draw.io ER set
 - Northwind installer script
@@ -283,6 +295,7 @@ olist_*.csv  ──BULK INSERT──►  ECOMMERCE (SQL Server)
 
 | Doc | Role |
 |-----|------|
+| [`docs/github-pages.md`](docs/github-pages.md) | Local preview, Pages deployment and repository About fields |
 | [`docs/ssms-runbook.md`](docs/ssms-runbook.md) | End-to-end SSMS steps |
 | [`docs/load-order.md`](docs/load-order.md) | Parent/child create + load order |
 | [`docs/query-index.md`](docs/query-index.md) | Which a–h letters have exports |
@@ -438,7 +451,11 @@ SQL Server + SSMS/`sqlcmd` · T-SQL (`BULK INSERT`, CTE, `DATEDIFF`, `TOP`) · O
 ## Project structure
 
 ```text
-Data-Analysis/
+Data_Analysis/
+├── index.html           # responsive coursework website
+├── .nojekyll            # static GitHub Pages deployment
+├── START-HERE.md        # local preview and navigation
+├── assets/              # reference-matched CSS, JS and site identity
 ├── docs/screenshots/     # 20 labelled JPGs for README
 ├── docs/*.md             # runbook, load-order, query-index
 ├── Assignment #01/       # ER models
@@ -491,4 +508,4 @@ SQL Server with permission to `CREATE DATABASE` and `BULK INSERT`. CSV paths mus
 
 **Mohammad Rohaan** · Roll **22I-2327**  
 GitHub: https://github.com/rohaan2802  
-Repository: https://github.com/rohaan2802/Data-Analysis
+Repository: https://github.com/rohaan2802/Data_Analysis
