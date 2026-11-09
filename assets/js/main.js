@@ -42,7 +42,7 @@
   var cat='all';
   function filter(){var term=(q.value||'').trim().toLowerCase(),n=0;
     shots.forEach(function(s){var ok=(cat==='all'||s.dataset.cat===cat)&&(!term||s.textContent.toLowerCase().indexOf(term)>-1);s.classList.toggle('hide',!ok);if(ok)n++});
-    document.querySelectorAll('[data-searchable]').forEach(function(el){var ok=!term||el.textContent.toLowerCase().indexOf(term)>-1;el.classList.toggle('hide',!ok);if(ok&&term&&el.tagName==='DETAILS')el.open=true});
+    document.querySelectorAll('[data-searchable]').forEach(function(el){var ok=!term||el.textContent.toLowerCase().indexOf(term)>-1;el.classList.toggle('hide',!ok);});
     empty.style.display=n?'none':'block';document.getElementById('gallery-count').textContent=n+' of '+shots.length+' screenshots';}
   chips.forEach(function(c){c.addEventListener('click',function(){cat=c.dataset.filter;chips.forEach(function(x){x.setAttribute('aria-pressed',x===c)});filter()})});
   q.addEventListener('input',filter);
@@ -75,7 +75,9 @@
   function update(){
     var term=field.value.trim().toLowerCase(),count=0;
     rows.forEach(function(row){var match=!term||row.textContent.toLowerCase().includes(term);row.hidden=!match;if(match)count++});
-    document.querySelectorAll('.query-group').forEach(function(group){var visible=Array.from(group.querySelectorAll('[data-query]')).some(function(row){return !row.hidden});group.hidden=!visible;if(term&&visible)group.open=true});
+    var firstMatch=null;
+    document.querySelectorAll('.query-group').forEach(function(group){var visible=Array.from(group.querySelectorAll('[data-query]')).some(function(row){return !row.hidden});group.hidden=!visible;group.open=false;if(visible&&!firstMatch)firstMatch=group});
+    if(term&&firstMatch)firstMatch.open=true;
     status.textContent=count+' of '+rows.length+' questions';
     document.getElementById('query-empty').hidden=count!==0;
   }
@@ -83,3 +85,10 @@
   var menu=document.getElementById('nav-links'),button=document.getElementById('menu-toggle');
   document.addEventListener('keydown',function(event){if(event.key==='Escape'&&menu.classList.contains('open')){menu.classList.remove('open');button.setAttribute('aria-expanded','false');button.focus()}});
 })();
+
+// Native named details provide exclusivity; this also supports older browsers.
+document.addEventListener('toggle',function(event){
+  var opened=event.target;
+  if(!opened.matches('details.acc')||!opened.open)return;
+  document.querySelectorAll('details.acc[open]').forEach(function(panel){if(panel!==opened)panel.open=false});
+},true);
