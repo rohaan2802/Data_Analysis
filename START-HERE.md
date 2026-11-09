@@ -8,7 +8,9 @@ For a local server, open a terminal in this folder and run:
 
 Then open http://localhost:8000/ .
 
-The page is prepared locally only. No changes have been pushed to GitHub and no site has been deployed.
+Repository: https://github.com/rohaan2802/Data_Analysis
+
+Website: https://rohaan2802.github.io/Data_Analysis/
 
 - Website: index.html
 - Source content and updated links: README.md
@@ -16,4 +18,4 @@ The page is prepared locally only. No changes have been pushed to GitHub and no 
 - Original coursework: linked from the website to Assignment #01, Assignment #02 and NorthWind DataBase on GitHub
 - Test evidence and desktop/mobile screenshots: ../webpage-tools/preview/
 
-The visual design is adapted from PF_Repository, including its responsive layouts, light/dark themes, navigation and screenshot viewer. The content is specific to Data_Analysis.
+The website includes responsive layouts, light/dark themes, navigation and a screenshot viewer.

@@ -24,35 +24,10 @@ Canonical script: [`Assignment #02/Assignment_2_i222327/Assignment #02_SQL.sql`]
 
 | What | Link |
 |------|------|
-| Repository | [https://github.com/rohaan2802/Data_Analysis](https://github.com/rohaan2802/Data_Analysis) |
-| Website (GitHub Pages — after publication) | [https://rohaan2802.github.io/Data_Analysis/](https://rohaan2802.github.io/Data_Analysis/) |
-| Download whole repository (ZIP) | [https://github.com/rohaan2802/Data_Analysis/archive/refs/heads/main.zip](https://github.com/rohaan2802/Data_Analysis/archive/refs/heads/main.zip) |
-| Primary analysis pack — Order / Customer / Product / Seller folders | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327) |
-| Canonical T-SQL script | [https://github.com/rohaan2802/Data_Analysis/blob/main/Assignment%20%2302/Assignment_2_i222327/Assignment%20%2302_SQL.sql](https://github.com/rohaan2802/Data_Analysis/blob/main/Assignment%20%2302/Assignment_2_i222327/Assignment%20%2302_SQL.sql) |
-| Labelled screenshot gallery — 20 captures | [https://github.com/rohaan2802/Data_Analysis/tree/main/docs/screenshots](https://github.com/rohaan2802/Data_Analysis/tree/main/docs/screenshots) |
-| Assignment #01 — ER diagrams | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2301](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2301) |
-| Assignment #02 — SQL, datasets and reports | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302) |
-| Olist source CSV dataset | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Brazilian_Dataset](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Brazilian_Dataset) |
-| Order analysis — CSV and chart exports | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/ORDER%20ANALYSIS](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/ORDER%20ANALYSIS) |
-| Customer analysis — CSV and chart exports | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/CUSTOMER%20ANALYSIS](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/CUSTOMER%20ANALYSIS) |
-| Product analysis — CSV and chart exports | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/PRODUCT%20ANALYSIS](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/PRODUCT%20ANALYSIS) |
-| Seller and shipment analysis — CSV and chart exports | [https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/SELLER%20AND%20SHIPMENT%20ANALYSIS](https://github.com/rohaan2802/Data_Analysis/tree/main/Assignment%20%2302/Assignment_2_i222327/SELLER%20AND%20SHIPMENT%20ANALYSIS) |
-| Northwind practice script | [https://github.com/rohaan2802/Data_Analysis/blob/main/NorthWind%20DataBase/NorthWind%20DataBase.sql](https://github.com/rohaan2802/Data_Analysis/blob/main/NorthWind%20DataBase/NorthWind%20DataBase.sql) |
-
-**Website status:** prepared locally; not published yet. The GitHub Pages URL above is the intended address **after deployment**, not a currently live demo.
-
-| Local preview & guides | Link |
-|------------------------|------|
-| Preview the webpage | [index.html](index.html) |
-| Start here | [START-HERE.md](START-HERE.md) |
-| Deployment and repository About settings | [docs/github-pages.md](docs/github-pages.md) |
-| SSMS runbook | [docs/ssms-runbook.md](docs/ssms-runbook.md) |
-| Foreign-key-safe load order | [docs/load-order.md](docs/load-order.md) |
-| Query-to-export index | [docs/query-index.md](docs/query-index.md) |
-
-For a local browser preview, run `python -m http.server 8000` in this folder, then open http://localhost:8000/.
-
-The website brings together the project documentation, ER diagrams, SQL workflow and saved charts. Run the analytical queries in SQL Server / SSMS.
+| Website | [rohaan2802.github.io/Data_Analysis/](https://rohaan2802.github.io/Data_Analysis/) |
+| Repository | [github.com/rohaan2802/Data_Analysis](https://github.com/rohaan2802/Data_Analysis) |
+| Main SQL script | [Assignment #02_SQL.sql](https://github.com/rohaan2802/Data_Analysis/blob/main/Assignment%20%2302/Assignment_2_i222327/Assignment%20%2302_SQL.sql) |
+| Download ZIP | [Data_Analysis.zip](https://github.com/rohaan2802/Data_Analysis/archive/refs/heads/main.zip) |
 
 ---
 
