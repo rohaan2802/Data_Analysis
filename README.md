@@ -52,7 +52,7 @@ Canonical script: [`Assignment #02/Assignment_2_i222327/Assignment #02_SQL.sql`]
 
 For a local browser preview, run `python -m http.server 8000` in this folder, then open http://localhost:8000/.
 
-The responsive static coursework website matches the design of [PF_Repository](https://rohaan2802.github.io/PF_Repository/). SQL runs in SQL Server / SSMS; the website presents the documentation, diagrams and saved charts and does not run database queries in the browser.
+The website brings together the project documentation, ER diagrams, SQL workflow and saved charts. Run the analytical queries in SQL Server / SSMS.
 
 ---
 
